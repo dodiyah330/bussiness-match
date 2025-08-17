@@ -2,7 +2,7 @@
 
 A modern Bumble-like platform connecting business buyers and sellers with streamlined acquisition workflows.
 
-## 🚀 Features
+## Features
 
 - **Bumble-like Interface**: Sellers can swipe through buyer profiles
 - **Smart Matching**: AI-powered matching algorithm
@@ -19,13 +19,13 @@ A modern Bumble-like platform connecting business buyers and sellers with stream
 - **Database**: PostgreSQL with Neon
 - **Styling**: Tailwind CSS v3
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js 18+ 
 - PostgreSQL database (Neon recommended)
 - npm or yarn
 
-## 🗄️ Database Setup
+## Database Setup
 
 1. **Create Database**: Set up a PostgreSQL database (Neon recommended)
 2. **Apply Schema**: Run the database schema to create tables:
@@ -40,7 +40,7 @@ psql "YOUR_DATABASE_URL" -f server/schema.sql
 npm run seed
 ```
 
-## ⚙️ Environment Configuration
+## Environment Configuration
 
 1. **Copy Environment Template**:
 ```bash
@@ -55,7 +55,7 @@ PORT=5000
 NODE_ENV=development
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Install Dependencies**:
 ```bash
@@ -76,7 +76,7 @@ npm run dev
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:5000
 
-## 👥 Test Accounts
+## Test Accounts
 
 After running `npm run seed`, you can use these test accounts:
 
@@ -94,7 +94,7 @@ After running `npm run seed`, you can use these test accounts:
 - **Anna Rodriguez**: anna.rodriguez@consulting.com / password123
 - **Thomas Lee**: thomas.lee@retail.com / password123
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 business-marketplace/
@@ -114,7 +114,7 @@ business-marketplace/
 └── package.json
 ```
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - User registration
@@ -127,14 +127,14 @@ business-marketplace/
 ### Health Check
 - `GET /api/health` - Server health status
 
-## 🔄 User Flow
+## User Flow
 
 1. **Registration**: Users register as buyer or seller
 2. **Onboarding**: Complete profile setup with preferences
 3. **Matching**: Sellers browse and accept/reject buyer profiles
 4. **Dashboard**: View matches and manage connections
 
-## 🎨 Design Features
+## Design Features
 
 - **Modern UI**: Clean, professional design with gradients
 - **Responsive**: Works on desktop, tablet, and mobile
@@ -142,7 +142,7 @@ business-marketplace/
 - **Profile Images**: Color-coded initials for visual appeal
 - **Status Indicators**: Clear accept/reject/pending states
 
-## 🧪 Testing
+## Testing
 
 The application includes comprehensive test data with realistic business profiles:
 
@@ -150,7 +150,7 @@ The application includes comprehensive test data with realistic business profile
 - **5 Seller Profiles**: Various business types and sizes
 - **Realistic Data**: Actual business scenarios and preferences
 
-## 📝 Development Scripts
+## Development Scripts
 
 - `npm run dev` - Start frontend development server
 - `npm run dev:server` - Start backend development server
@@ -158,14 +158,14 @@ The application includes comprehensive test data with realistic business profile
 - `npm run start` - Start production server
 - `npm run seed` - Populate database with test data
 
-## 🔧 Customization
+## Customization
 
 - **Profile Images**: Add real photos to `/public/images/profiles/`
 - **Industries**: Modify industry options in the seed data
 - **Investment Ranges**: Adjust ranges in the database schema
 - **UI Colors**: Customize Tailwind CSS theme
 
-## 🚀 Deployment
+## Deployment
 
 1. **Build the Application**:
 ```bash
@@ -182,10 +182,10 @@ NODE_ENV=production
 - Railway/Heroku (Backend)
 - Neon (Database)
 
-## 📄 License
+## License
 
 This project is created for educational and demonstration purposes.
 
 ---
 
-**BusinessMatch** - Where Business Matches Happen! 💼❤️
+**BusinessMatch** - Where Business Matches Happen!
