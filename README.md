@@ -11,7 +11,7 @@ A modern Bumble-like platform connecting business buyers and sellers with stream
 - **Real-time Updates**: Live status updates for matches
 - **Responsive Design**: Modern UI with Tailwind CSS and Framer Motion
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: Next.js 15, React 19, TypeScript, Tailwind CSS, Framer Motion
 - **Backend**: Node.js, Express.js, PostgreSQL
